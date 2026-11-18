@@ -23,11 +23,26 @@ All pages share the same `localStorage` data, so transactions created on the Tra
 - Responsive desktop, tablet and mobile layouts
 - Shared navigation between all pages
 
+## Screenshots
+
+### Dashboard
+![Pennywise Dashboard](screenshots/dashboard.png)
+
+### Transactions
+![Pennywise Transactions](screenshots/transactions.png)
+
+### Financial Insights
+![Pennywise Insights](screenshots/insights.png)
+
+
 ## Project Structure
 
 ```text
 Pennywise/
-├── .gitignore
+├── screenshots/
+│   ├── dashboard.png
+│   ├── transactions.png
+│   └── insights.png
 ├── index.html
 ├── transactions.html
 ├── insights.html
@@ -36,7 +51,8 @@ Pennywise/
 ├── dashboard.js
 ├── transactions.js
 ├── insights.js
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Run Locally
