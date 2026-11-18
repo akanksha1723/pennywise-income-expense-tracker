@@ -1,8 +1,9 @@
-# Pennywise — Multi-Page Personal Finance Tracker
+# Pennywise — Personal Finance Tracker
 
 A responsive personal income and expense tracking website built with HTML5, CSS3 and Vanilla JavaScript (ES6+).
 
 ## Pages
+
 - **Overview (`index.html`)** — financial summary, recent transactions and shortcuts.
 - **Transactions (`transactions.html`)** — add, edit, delete, search, filter and export transaction records.
 - **Insights (`insights.html`)** — income/expense comparison, category-wise spending and top expense category.
@@ -10,6 +11,7 @@ A responsive personal income and expense tracking website built with HTML5, CSS3
 All pages share the same `localStorage` data, so transactions created on the Transactions page appear on Overview and Insights automatically.
 
 ## Features
+
 - Live income, expense and balance calculations
 - Form validation
 - Browser localStorage persistence
@@ -22,8 +24,10 @@ All pages share the same `localStorage` data, so transactions created on the Tra
 - Shared navigation between all pages
 
 ## Project Structure
+
 ```text
 Pennywise/
+├── .gitignore
 ├── index.html
 ├── transactions.html
 ├── insights.html
@@ -35,22 +39,30 @@ Pennywise/
 └── README.md
 ```
 
-## Run locally
-1. Extract the project ZIP.
-2. Open the extracted folder in VS Code.
-3. Open `index.html` with Live Server.
-4. Use the sidebar navigation to move between pages.
+## Run Locally
+
+1. Open the Pennywise project folder in VS Code.
+2. Open `index.html` with Live Server.
+3. Use the sidebar navigation to move between pages.
 
 No framework, package installation, backend or build step is required.
 
-## Data storage
+## Data Storage
+
 Transaction data and theme preference are stored in browser localStorage. Data is local to the current browser/device; export CSV backups when needed.
 
-## AI assistance disclosure
+## AI Assistance Disclosure
+
 AI tools were used for brainstorming, implementation guidance and debugging support. The student should review and understand all submitted code and be prepared to explain the page structure, shared storage, validation, DOM updates and calculations during a viva.
 
 ## Deployment
+
 Push the project files to GitHub, then enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → /(root)**. Add the published URL here.
 
 ## Author
-Add your name, batch and institute details before submission.
+
+**Akanksha Raj**
+
+- Course: Master of Computer Applications (MCA)
+- Batch: 2027
+- Institute: G.L. Bajaj Institute of Technology and Management
